@@ -1,7 +1,6 @@
 # Optimizing SQL Queries for Improved Performance
 
 In the realm of database querying, optimizing SQL queries is crucial to enhance both performance and readability. While subqueries are commonly employed in SQL queries, they can occasionally result in inefficient execution plans. 
-By substituting subqueries with more optimized alternatives, query performance can be significantly enhanced. 
 Below, we present 20 examples of SQL queries that have been optimized by employing more efficient alternatives.
 
 1. **Original Query:**
@@ -287,4 +286,4 @@ AVING COUNT(*) > (SELECT COUNT(*) / 10 FROM employees);
    HAVING AVG(salary) > (SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary) FROM employees);
    ```
 
-These optimized queries provide more efficient alternatives to common SQL queries that use subqueries, improving query performance and readability.
+SQL Logic improvement!
