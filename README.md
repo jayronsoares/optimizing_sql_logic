@@ -159,9 +159,7 @@ Below, we present 20 examples of SQL queries that have been optimized by employi
    SELECT department_id, COUNT(*) AS employee_count
    FROM employees
    GROUP BY department_id
-   H
-
-AVING COUNT(*) > (SELECT COUNT(*) / 10 FROM employees);
+   HAVING COUNT(*) > (SELECT COUNT(*) / 10 FROM employees);
    ```
    **Optimized Query:**
    ```sql
