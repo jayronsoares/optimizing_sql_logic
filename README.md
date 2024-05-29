@@ -283,5 +283,3 @@ Below, we present 20 examples of SQL queries that have been optimized by employi
    GROUP BY department_id
    HAVING AVG(salary) > (SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary) FROM employees);
    ```
-
-SQL Logic improvement!
