@@ -1,6 +1,6 @@
 To help you, use these optimized versions of the common SQL query mistakes with examples:
 
-1. **Using SELECT *:**
+1. **Using SELECT:**
    - Mistake: `SELECT * FROM employees;`
    - Optimized: Instead of selecting all columns, specify the required columns:
      ```sql
