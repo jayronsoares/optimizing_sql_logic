@@ -1,6 +1,4 @@
-# SQL Query Optimization — 12 Real-World Examples
-
-Practical patterns for writing faster, safer SQL.
+# SQL query optimization - Practical patterns for writing faster, safer SQL.
 ---
 
 ## 1. IN subquery → EXISTS
